@@ -4,9 +4,9 @@ import com.laith.http.service.ServiceLocator;
 
 import java.io.*;
 
-public class Main {
+public class Start {
 
-	public static void main(String[] args) throws IOException, ClassNotFoundException {
+	public static void run() throws IOException {
         ServiceLocator.loadEndPoints();
         WebServer.start();
 	}

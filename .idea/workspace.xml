@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082f9b6c-4a30-4a8e-b6ac-08a584a60305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/common/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/service/samples/Service1.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +46,6 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1S425H7q42UKgM7hC3FdQ0KPJV0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -110,7 +111,9 @@
       <workItem from="1552680006973" duration="1443000" />
       <workItem from="1555157585601" duration="39000" />
       <workItem from="1570808364285" duration="367000" />
-      <workItem from="1570808739075" duration="11014000" />
+      <workItem from="1570808739075" duration="11353000" />
+      <workItem from="1572450838806" duration="688000" />
+      <workItem from="1572549802803" duration="2924000" />
     </task>
     <servers />
   </component>
