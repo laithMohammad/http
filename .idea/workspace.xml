@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="082f9b6c-4a30-4a8e-b6ac-08a584a60305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/common/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="082f9b6c-4a30-4a8e-b6ac-08a584a60305" name="Default" comment="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only">
+      <change afterPath="$PROJECT_DIR$/redis-stable.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/service/samples/Service1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/request/HttpRequestWrapperThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/request/HttpRequestWrapperThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,8 +109,16 @@
       <workItem from="1570808364285" duration="367000" />
       <workItem from="1570808739075" duration="11353000" />
       <workItem from="1572450838806" duration="688000" />
-      <workItem from="1572549802803" duration="2924000" />
+      <workItem from="1572549802803" duration="5886000" />
     </task>
+    <task id="LOCAL-00001" summary="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only">
+      <created>1572552880950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572552880950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,5 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only" />
   </component>
 </project>

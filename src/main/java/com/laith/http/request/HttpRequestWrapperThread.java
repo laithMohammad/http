@@ -14,10 +14,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class HttpRequestWrapperThread implements Runnable {
 	private Socket client;
-	private static AtomicInteger integer;
+	private static AtomicInteger requestCounter;
 
 	static {
-		integer = new AtomicInteger(0);
+		requestCounter = new AtomicInteger(0);
 	}
 
 	public HttpRequestWrapperThread(Socket client) {
@@ -27,7 +27,7 @@ public class HttpRequestWrapperThread implements Runnable {
 	@Override
 	public void run() {
 		try {
-			System.out.println(integer.getAndIncrement());
+			requestCounter.getAndIncrement();
 			InputStream inputStream = client.getInputStream();
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 			HttpRequest request = new HttpRequestParser().readAndParseRequest(bufferedReader);
@@ -37,5 +37,9 @@ public class HttpRequestWrapperThread implements Runnable {
 		} catch (IOException | ServiceNotFoundException e) {
 			System.out.println(e.getMessage());
 		}
+	}
+
+	public static int getRequestCounts() {
+		return requestCounter.get();
 	}
 }
