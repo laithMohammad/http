@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="082f9b6c-4a30-4a8e-b6ac-08a584a60305" name="Default" comment="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only">
-      <change afterPath="$PROJECT_DIR$/redis-stable.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laith/http/request/HttpRequestWrapperThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laith/http/request/HttpRequestWrapperThread.java" afterDir="false" />
+    <list default="true" id="082f9b6c-4a30-4a8e-b6ac-08a584a60305" name="Default" comment="- Rename Request Counter&#10;- Adding initial point for redis server, for persisting http session in an in-memory database ( one of the Session data sources for session manager )">
+      <change afterPath="$PROJECT_DIR$/sample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/libraries/Maven__com_laith_http_httpServer_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/src/main/java/com/laith/http/sample/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/classes/com/laith/http/sample/Service1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/target/sample-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +50,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -109,7 +133,7 @@
       <workItem from="1570808364285" duration="367000" />
       <workItem from="1570808739075" duration="11353000" />
       <workItem from="1572450838806" duration="688000" />
-      <workItem from="1572549802803" duration="5886000" />
+      <workItem from="1572549802803" duration="6185000" />
     </task>
     <task id="LOCAL-00001" summary="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only">
       <created>1572552880950</created>
@@ -118,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572552880950</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Rename Request Counter&#10;- Adding initial point for redis server, for persisting http session in an in-memory database ( one of the Session data sources for session manager )">
+      <created>1572572653909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572572653909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Remove the Sample&#10;- Support config file for Port Number / Number of threads&#10;- Convert server from App to library that work as a dependency&#10;- Java 8 Support Only" />
+    <MESSAGE value="- Rename Request Counter&#10;- Adding initial point for redis server, for persisting http session in an in-memory database ( one of the Session data sources for session manager )" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Rename Request Counter&#10;- Adding initial point for redis server, for persisting http session in an in-memory database ( one of the Session data sources for session manager )" />
   </component>
 </project>
