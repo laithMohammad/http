@@ -7,11 +7,6 @@ public class Config {
 	private static final Properties properties;
 
 
-
-
-
-
-
 	static {
 		properties = new Properties();
 		try {
